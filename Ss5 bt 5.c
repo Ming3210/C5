@@ -113,5 +113,7 @@ int main()
 			printf("Ko hop le");
 		}
 		break;
+		default:
+			printf("Ko hop le");
 		}
 		}

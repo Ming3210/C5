@@ -28,7 +28,8 @@ int main()
 				printf("x = 0");
 			}else if(b==0 && c!=0 && Delta>=0){
 				x=sqrt(-c/a);
-				printf("gia tri cua x la:%.2f",x);
+				x1=-sqrt(-c/a);
+				printf("gia tri cua x la:%.2f %.2f",x,x1);
 			}else if(b!=0 && c==0 && Delta>0||b!=0 && c!=0 && Delta>0){
 				x1=(-b+sqrt(Delta))/2*a;
 				x2=(-b-sqrt(Delta))/2*a;
